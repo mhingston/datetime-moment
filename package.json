@@ -1,0 +1,23 @@
+{
+  "name": "datetime-moment",
+  "version": "1.10.12",
+  "description": "date/time sorting plugin for data tables",
+  "main": "datetime-moment.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhingston/datetime-moment.git"
+  },
+  "keywords": [
+    "datatables",
+    "moment"
+  ],
+  "author": "Allan Jardine",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/mhingston/datetime-moment/issues"
+  },
+  "homepage": "https://github.com/mhingston/datetime-moment#readme"
+}
