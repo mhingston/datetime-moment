@@ -20,14 +20,6 @@
  *    $('#example').DataTable();
  */
 
-(function (factory) {
-    if (typeof define === "function" && define.amd) {
-        define(["jquery", "moment", "datatables"], factory);
-    } else {
-        factory(jQuery, moment);
-    }
-}(function ($, moment) {
-
 $.fn.dataTable.moment = function ( format, locale ) {
     var types = $.fn.dataTable.ext.type;
 
@@ -58,5 +50,3 @@ $.fn.dataTable.moment = function ( format, locale ) {
             parseInt( moment( d, format, locale, true ).format( 'x' ), 10 );
     };
 };
-
-}));
